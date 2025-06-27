@@ -732,7 +732,12 @@
                 if (savedData.color && !esFestivo && !esEspecial) {
                     cell.classList.add(savedData.color);
                 }
-                
+
+
+        // Solo aplicar azul a martes si NO es festivo o día especial
+if (dayOfWeek === 2 && !esFestivo && !esEspecial) {
+    cell.classList.add('tuesday');
+}
                 // Añadir nota si existe
                 if (savedData.note) {
                     const note = document.createElement('div');
