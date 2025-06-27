@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Calendario con Bloqueo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        .calendar-container {
+            width: 100%;
+            max-width: 500px;
+            background: white;
+            border-radius: 25px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .calendar-header {
+            background: linear-gradient(90deg, #4e54c8, #8f94fb);
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+
+        .calendar-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #ff9966, #ff5e62);
+        }
+
+        .month-nav {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .nav-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn:active {
+            transform: scale(0.9);
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .month-year {
+            font-size: 1.4rem;
+            font-weight: 600;
+            text-align: center;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .weekdays {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            background: #f8f9fa;
+            padding: 10px 0;
+            font-weight: 600;
+            color: #5a5a5a;
+            border-bottom: 1px solid #eee;
+        }
+
+        .weekday {
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 3px;
+            padding: 10px;
+            background: #f0f2f5;
+        }
+
+        .day-cell {
+            aspect-ratio: 1;
+            background: white;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 8px;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+        }
+
+        .day-cell:active {
+            transform: scale(0.95);
+        }
+
+        .day-cell.today {
+            box-shadow: 0 0 0 2px #4e54c8;
+        }
+
+        .day-cell.locked {
+            opacity: 0.9;
+            cursor: default;
+        }
+
+        .day-number {
+            font-weight: 600;
+            font-size: 1.1rem;
+            align-self: flex-end;
+        }
+
+        .day-content {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            width: 100%;
+        }
+
+        .note {
+            background: rgba(255, 235, 59, 0.4);
+            border-radius: 4px;
+            padding: 2px 4px;
+            font-size: 0.7rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-align: center;
+            color: #000;
+        }
+
+        .alert-bell {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            font-size: 0.9rem;
+            color: #FF5722;
+            animation: bell-shake 0.5s ease-in-out;
+        }
+
+        @keyframes bell-shake {
+            0% { transform: rotate(0); }
+            25% { transform: rotate(15deg); }
+            50% { transform: rotate(-15deg); }
+            75% { transform: rotate(10deg); }
+            100% { transform: rotate(0); }
+        }
+
+        .saturday, .sunday {
+            background-color: #FFAB91;
+            color: white;
+        }
+
+        .tuesday {
+            background-color: #64B5F6;
+            color: white;
+        }
+
+        .yellow {
+            background-color: #FFD54F !important;
+            color: #000;
+        }
+
+        .red {
+            background-color: #E53935 !important;
+            color: white;
+        }
+
+        /* Días festivos de Andalucía */
+        .festivo-andalucia {
+            background-color: #C62828 !important;
+            color: white !important;
+        }
+
+        /* Días especiales azules */
+        .dia-especial {
+            background-color: #1565C0 !important;
+            color: white !important;
+        }
+
+        .mode-selector {
+            display: flex;
+            background: white;
+            padding: 15px;
+            border-top: 1px solid #eee;
+        }
+
+        .mode-btn {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            background: #f8f9fa;
+            border-radius: 10px;
+            margin: 0 5px;
+            font-weight: 600;
+            color: #5a5a5a;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .mode-btn i {
+            font-size: 1.2rem;
+        }
+
+        .mode-btn.active {
+            background: #4e54c8;
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(78, 84, 200, 0.4);
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            padding: 0 15px 15px;
+        }
+
+        .action-btn {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            font-weight: 600;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .action-btn:active {
+            transform: scale(0.98);
+        }
+
+        #export-btn {
+            background: linear-gradient(90deg, #4CAF50, #2E7D32);
+        }
+
+        #import-btn {
+            background: linear-gradient(90deg, #2196F3, #0D47A1);
+        }
+
+        #lock-btn {
+            background: #e74c3c;
+            color: white;
+        }
+
+        #lock-btn.unlocked {
+            background: #2ecc71;
+            color: black;
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-top: 1px solid #eee;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.8rem;
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+        }
+
+        #modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            background: white;
+            width: 90%;
+            max-width: 400px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-header {
+            background: linear-gradient(90deg, #4e54c8, #8f94fb);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .modal-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .modal-body {
+            padding: 25px 20px;
+        }
+
+        .alert-text {
+            width: 100%;
+            height: 120px;
+            border: 2px solid #eee;
+            border-radius: 12px;
+            padding: 15px;
+            font-family: inherit;
+            font-size: 1rem;
+            resize: none;
+        }
+
+        .alert-text:focus {
+            border-color: #4e54c8;
+            outline: none;
+        }
+
+        .modal-footer {
+            display: flex;
+            padding: 0 20px 20px;
+            gap: 10px;
+        }
+
+        .modal-action-btn {
+            flex: 1;
+            padding: 14px;
+            border: none;
+            border-radius: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .modal-action-btn:active {
+            transform: scale(0.98);
+        }
+
+        #save-alert {
+            background: #4e54c8;
+            color: white;
+        }
+
+        #save-alert:active {
+            background: #3a40b5;
+        }
+
+        #delete-alert {
+            background: #e74c3c;
+            color: white;
+        }
+
+        #delete-alert:active {
+            background: #c0392b;
+        }
+
+        .status-bar {
+            padding: 15px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666;
+            background: #f8f9fa;
+            border-top: 1px solid #eee;
+        }
+
+        #file-input {
+            display: none;
+        }
+
+        .lock-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.05);
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .lock-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .lock-icon {
+            font-size: 3rem;
+            color: #e74c3c;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 0.7; }
+            50% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(1); opacity: 0.7; }
+        }
+
+        @media (max-height: 750px) {
+            .calendar-grid {
+                gap: 2px;
+                padding: 8px;
+            }
+            
+            .day-cell {
+                padding: 6px;
+                border-radius: 10px;
+            }
+            
+            .day-number {
+                font-size: 1rem;
+            }
+            
+            .note {
+                font-size: 0.65rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <div class="month-nav">
+                <button class="nav-btn" id="prev-month">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            </div>
+            
+            <div class="month-year" id="month-year">Junio 2025</div>
+            
+            <div class="month-nav">
+                <button class="nav-btn" id="next-month">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div class="weekdays">
+            <div class="weekday">Lun</div>
+            <div class="weekday">Mar</div>
+            <div class="weekday">Mié</div>
+            <div class="weekday">Jue</div>
+            <div class="weekday">Vie</div>
+            <div class="weekday">Sáb</div>
+            <div class="weekday">Dom</div>
+        </div>
+        
+        <div class="calendar-grid" id="calendar-grid">
+            <!-- Los días se generarán dinámicamente con JavaScript -->
+        </div>
+        
+        <div class="lock-overlay" id="lock-overlay">
+            <div class="lock-icon">
+                <i class="fas fa-lock"></i>
+            </div>
+        </div>
+        
+        <div class="mode-selector">
+            <button class="mode-btn active" id="color-btn">
+                <i class="fas fa-palette"></i>
+                <span>Color</span>
+            </button>
+            <button class="mode-btn" id="text-btn">
+                <i class="fas fa-font"></i>
+                <span>Nota</span>
+            </button>
+            <button class="mode-btn" id="alert-btn">
+                <i class="fas fa-bell"></i>
+                <span>Aviso</span>
+            </button>
+        </div>
+        
+        <div class="action-buttons">
+            <button class="action-btn" id="export-btn">
+                <i class="fas fa-file-export"></i>
+                <span>Exportar</span>
+            </button>
+            <button class="action-btn" id="import-btn">
+                <i class="fas fa-file-import"></i>
+                <span>Importar</span>
+            </button>
+            <button class="action-btn" id="lock-btn">
+                <i class="fas fa-lock"></i>
+                <span>Bloqueado</span>
+            </button>
+            <input type="file" id="file-input" accept=".json">
+        </div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #FFD54F;"></div>
+                <span>Amarillo</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #E53935;"></div>
+                <span>Rojo</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #64B5F6;"></div>
+                <span>Martes</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #FFAB91;"></div>
+                <span>Fin de semana</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #C62828;"></div>
+                <span>Festivo Andalucía</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #1565C0;"></div>
+                <span>Día especial</span>
+            </div>
+            <div class="legend-item">
+                <i class="fas fa-bell" style="color: #FF5722;"></i>
+                <span>Aviso</span>
+            </div>
+        </div>
+        
+        <div class="status-bar" id="status-bar">
+            Calendario bloqueado. Toque el botón de bloqueo para editar.
+        </div>
+    </div>
+    
+    <div id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title">Aviso del día</div>
+                <button class="close-btn" id="close-modal">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <textarea class="alert-text" id="alert-text" placeholder="Escribe tu aviso aquí..."></textarea>
+            </div>
+            
+            <div class="modal-footer">
+                <button class="modal-action-btn" id="save-alert">Guardar</button>
+                <button class="modal-action-btn" id="delete-alert">Borrar</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Elementos del DOM
+        const calendarGrid = document.getElementById('calendar-grid');
+        const monthYear = document.getElementById('month-year');
+        const prevMonthBtn = document.getElementById('prev-month');
+        const nextMonthBtn = document.getElementById('next-month');
+        const colorBtn = document.getElementById('color-btn');
+        const textBtn = document.getElementById('text-btn');
+        const alertBtn = document.getElementById('alert-btn');
+        const modal = document.getElementById('modal');
+        const alertText = document.getElementById('alert-text');
+        const saveAlert = document.getElementById('save-alert');
+        const deleteAlert = document.getElementById('delete-alert');
+        const closeModal = document.getElementById('close-modal');
+        const statusBar = document.getElementById('status-bar');
+        const exportBtn = document.getElementById('export-btn');
+        const importBtn = document.getElementById('import-btn');
+        const lockBtn = document.getElementById('lock-btn');
+        const fileInput = document.getElementById('file-input');
+        const lockOverlay = document.getElementById('lock-overlay');
+        
+        // Variables de estado
+        let activeMode = 'color';
+        let currentDay = null;
+        let currentMonth = new Date().getMonth();
+        let currentYear = new Date().getFullYear();
+        let isLocked = true; // Por defecto bloqueado
+        const today = new Date();
+        
+        // Meses en español
+        const months = [
+            'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 
+            'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
+        ];
+        
+        // Días festivos de Andalucía (día, mes-1)
+        const festivosAndalucia = [
+            { day: 28, month: 2 }, // 28 de Febrero
+            { day: 18, month: 4 }  // 18 de Abril
+        ];
+        
+        // Días especiales azules (día, mes-1)
+        const diasEspeciales = [
+            { day: 17, month: 4 },   // 17 de Abril
+            { day: 11, month: 6 },   // 11 de Junio
+            { day: 18, month: 10 },  // 18 de Octubre
+            { day: 25, month: 11 },  // 25 de Noviembre
+            { day: 31, month: 11 }    // 31 de Diciembre (mes 11 porque es 0-indexed)
+        ];
+        
+        // Generar calendario
+        function generateCalendar(month, year) {
+            calendarGrid.innerHTML = '';
+            monthYear.textContent = `${months[month]} ${year}`;
+            
+            const firstDay = new Date(year, month, 1).getDay();
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+            
+            // Ajustar offset para que la semana empiece en lunes (1)
+            let offset = firstDay === 0 ? 6 : firstDay - 1;
+            
+            // Celdas vacías para los días anteriores al primer día del mes
+            for (let i = 0; i < offset; i++) {
+                const emptyCell = document.createElement('div');
+                emptyCell.className = 'day-cell';
+                emptyCell.style.visibility = 'hidden';
+                calendarGrid.appendChild(emptyCell);
+            }
+            
+            // Crear celdas para cada día del mes
+            for (let day = 1; day <= daysInMonth; day++) {
+                const cell = document.createElement('div');
+                cell.className = 'day-cell';
+                
+                // Aplicar clase de bloqueo (solo afecta a la interacción)
+                cell.classList.toggle('locked', isLocked);
+                
+                // Comprobar si es hoy
+                if (year === today.getFullYear() && month === today.getMonth() && day === today.getDate()) {
+                    cell.classList.add('today');
+                }
+                
+                // Número del día
+                const dayNumber = document.createElement('div');
+                dayNumber.className = 'day-number';
+                dayNumber.textContent = day;
+                cell.appendChild(dayNumber);
+                
+                // Contenedor para notas y avisos
+                const dayContent = document.createElement('div');
+                dayContent.className = 'day-content';
+                cell.appendChild(dayContent);
+                
+                // Determinar el día de la semana (0: Domingo, 6: Sábado)
+                const dayOfWeek = new Date(year, month, day).getDay();
+                
+                // Aplicar estilos según el día de la semana
+                if (dayOfWeek === 6) { // Sábado
+                    cell.classList.add('saturday');
+                } else if (dayOfWeek === 0) { // Domingo
+                    cell.classList.add('sunday');
+                } else if (dayOfWeek === 2) { // Martes
+                    cell.classList.add('tuesday');
+                }
+                
+                // Comprobar si es festivo de Andalucía
+                const esFestivo = festivosAndalucia.some(f => f.day === day && f.month === month);
+                if (esFestivo) {
+                    cell.classList.add('festivo-andalucia');
+                }
+                
+                // Comprobar si es día especial
+                const esEspecial = diasEspeciales.some(d => d.day === day && d.month === month);
+                if (esEspecial) {
+                    cell.classList.add('dia-especial');
+                }
+                
+                // Cargar datos guardados
+                const savedData = JSON.parse(localStorage.getItem(`day_${day}_${month}_${year}`) || '{}');
+                
+                // Aplicar color guardado (si no es un día especial)
+                if (savedData.color && !esFestivo && !esEspecial) {
+                    cell.classList.add(savedData.color);
+                }
+                
+                // Añadir nota si existe
+                if (savedData.note) {
+                    const note = document.createElement('div');
+                    note.className = 'note';
+                    note.textContent = savedData.note;
+                    dayContent.appendChild(note);
+                }
+                
+                // Añadir campanita de aviso en la esquina superior izquierda
+                if (savedData.alert) {
+                    const alertBell = document.createElement('div');
+                    alertBell.className = 'alert-bell';
+                    alertBell.innerHTML = '<i class="fas fa-bell"></i>';
+                    cell.appendChild(alertBell);
+                }
+                
+                // Evento de clic
+                cell.addEventListener('click', () => handleCellClick(day, month, year, cell));
+                
+                calendarGrid.appendChild(cell);
+            }
+            
+            // Actualizar barra de estado
+            statusBar.textContent = isLocked ? 
+                `Calendario bloqueado. Puedes navegar entre meses pero no editar.` : 
+                `Mostrando ${months[month]} ${year}. Modo edición activado.`;
+        }
+        
+        // Manejar clic en un día
+        function handleCellClick(day, month, year, cell) {
+            if (isLocked) {
+                // Si está bloqueado, solo permitir ver alertas
+                const savedData = JSON.parse(localStorage.getItem(`day_${day}_${month}_${year}`) || '{}');
+                if (savedData.alert) {
+                    alertText.value = savedData.alert;
+                    modal.style.display = 'flex';
+                    // Deshabilitar botones de guardar/borrar
+                    saveAlert.disabled = true;
+                    deleteAlert.disabled = true;
+                    statusBar.textContent = `Viendo aviso para el ${day} de ${months[month]} ${year}.`;
+                }
+                return;
+            }
+            
+            currentDay = day;
+            const dateStr = `${day} de ${months[month]} de ${year}`;
+            
+            if (activeMode === 'color') {
+                const colors = ['white', 'red', 'yellow'];
+                let savedData = JSON.parse(localStorage.getItem(`day_${day}_${month}_${year}`) || '{}');
+                
+                // Eliminar clases de color existentes
+                cell.classList.remove('white', 'red', 'yellow');
+                
+                // Obtener siguiente color
+                const currentColor = savedData.color || 'white';
+                const nextColor = colors[(colors.indexOf(currentColor) + 1) % colors.length];
+                
+                // Aplicar nuevo color
+                cell.classList.add(nextColor);
+                savedData.color = nextColor;
+                
+                // Guardar
+                localStorage.setItem(`day_${day}_${month}_${year}`, JSON.stringify(savedData));
+                
+                statusBar.textContent = `Color cambiado para el ${dateStr}.`;
+            } 
+            else if (activeMode === 'text') {
+                let note = prompt('Ingresa una nota (máximo 3 caracteres, solo letras/números):', '');
+                
+                if (note === null) return; // Usuario canceló
+                
+                if (note && !/^[a-zA-Z0-9]{1,3}$/.test(note)) {
+                    alert('La nota debe tener hasta 3 caracteres alfanuméricos.');
+                    return;
+                }
+                
+                let savedData = JSON.parse(localStorage.getItem(`day_${day}_${month}_${year}`) || '{}');
+                const dayContent = cell.querySelector('.day-content');
+                
+                // Eliminar nota existente
+                const existingNote = dayContent.querySelector('.note');
+                if (existingNote) existingNote.remove();
+                
+                // Añadir nueva nota si existe
+                if (note) {
+                    const newNote = document.createElement('div');
+                    newNote.className = 'note';
+                    newNote.textContent = note;
+                    dayContent.appendChild(newNote);
+                    savedData.note = note;
+                    statusBar.textContent = `Nota añadida para el ${dateStr}.`;
+                } else {
+                    delete savedData.note;
+                    statusBar.textContent = `Nota eliminada para el ${dateStr}.`;
+                }
+                
+                // Guardar
+                localStorage.setItem(`day_${day}_${month}_${year}`, JSON.stringify(savedData));
+            } 
+            else if (activeMode === 'alert') {
+                let savedData = JSON.parse(localStorage.getItem(`day_${day}_${month}_${year}`) || '{}');
+                alertText.value = savedData.alert || '';
+                modal.style.display = 'flex';
+                // Habilitar botones de guardar/borrar
+                saveAlert.disabled = false;
+                deleteAlert.disabled = false;
+                statusBar.textContent = `Editando aviso para el ${dateStr}.`;
+            }
+        }
+        
+        // Cambiar modo activo
+        function setActiveMode(mode) {
+            if (isLocked) {
+                statusBar.textContent = 'Calendario bloqueado. Desbloquea para cambiar modos.';
+                return;
+            }
+            
+            activeMode = mode;
+            colorBtn.classList.toggle('active', mode === 'color');
+            textBtn.classList.toggle('active', mode === 'text');
+            alertBtn.classList.toggle('active', mode === 'alert');
+            
+            // Actualizar barra de estado según el modo
+            if (mode === 'color') {
+                statusBar.textContent = 'Modo Color: Haz clic en un día para cambiar su color.';
+            } else if (mode === 'text') {
+                statusBar.textContent = 'Modo Nota: Haz clic en un día para añadir una nota (máx 3 caracteres).';
+            } else {
+                statusBar.textContent = 'Modo Aviso: Haz clic en un día para añadir o editar un aviso.';
+            }
+        }
+        
+        // Toggle bloqueo/desbloqueo
+        function toggleLock() {
+            isLocked = !isLocked;
+            
+            // Actualizar apariencia del botón
+            lockBtn.classList.toggle('unlocked', !isLocked);
+            lockOverlay.classList.toggle('active', isLocked);
+            
+            // Actualizar texto e icono
+            if (isLocked) {
+                lockBtn.innerHTML = '<i class="fas fa-lock"></i><span>Bloqueado</span>';
+                statusBar.textContent = 'Calendario bloqueado. Puedes navegar entre meses pero no editar.';
+            } else {
+                lockBtn.innerHTML = '<i class="fas fa-unlock"></i><span>Desbloqueado</span>';
+                statusBar.textContent = 'Calendario desbloqueado. Modo edición activado.';
+            }
+            
+            // Actualizar celdas (solo para el cursor)
+            const cells = document.querySelectorAll('.day-cell');
+            cells.forEach(cell => {
+                cell.classList.toggle('locked', isLocked);
+            });
+        }
+        
+        // Guardar alerta
+        saveAlert.addEventListener('click', () => {
+            if (!currentDay || isLocked) return;
+            
+            let savedData = JSON.parse(localStorage.getItem(`day_${currentDay}_${currentMonth}_${currentYear}`) || '{}');
+            savedData.alert = alertText.value.trim();
+            
+            // Guardar
+            localStorage.setItem(`day_${currentDay}_${currentMonth}_${currentYear}`, JSON.stringify(savedData));
+            
+            // Actualizar celda
+            const cells = document.querySelectorAll('.day-cell');
+            for (const cell of cells) {
+                const dayNum = cell.querySelector('.day-number');
+                if (dayNum && +dayNum.textContent === currentDay) {
+                    // Eliminar campanita existente
+                    const existingBell = cell.querySelector('.alert-bell');
+                    if (existingBell) existingBell.remove();
+                    
+                    // Añadir nueva campanita si hay aviso
+                    if (savedData.alert) {
+                        const alertBell = document.createElement('div');
+                        alertBell.className = 'alert-bell';
+                        alertBell.innerHTML = '<i class="fas fa-bell"></i>';
+                        cell.appendChild(alertBell);
+                    }
+                    break;
+                }
+            }
+            
+            modal.style.display = 'none';
+            statusBar.textContent = `Aviso guardado para el ${currentDay} de ${months[currentMonth]} ${currentYear}.`;
+        });
+        
+        // Borrar alerta
+        deleteAlert.addEventListener('click', () => {
+            if (!currentDay || isLocked) return;
+            
+            if (confirm('¿Estás seguro de que quieres borrar el aviso?')) {
+                let savedData = JSON.parse(localStorage.getItem(`day_${currentDay}_${currentMonth}_${currentYear}`) || '{}');
+                delete savedData.alert;
+                
+                // Guardar
+                localStorage.setItem(`day_${currentDay}_${currentMonth}_${currentYear}`, JSON.stringify(savedData));
+                
+                // Eliminar campanita de la celda
+                const cells = document.querySelectorAll('.day-cell');
+                for (const cell of cells) {
+                    const dayNum = cell.querySelector('.day-number');
+                    if (dayNum && +dayNum.textContent === currentDay) {
+                        const bell = cell.querySelector('.alert-bell');
+                        if (bell) bell.remove();
+                        break;
+                    }
+                }
+                
+                modal.style.display = 'none';
+                statusBar.textContent = `Aviso eliminado para el ${currentDay} de ${months[currentMonth]} ${currentYear}.`;
+            }
+        });
+        
+        // Cerrar modal
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+            statusBar.textContent = isLocked ? 
+                'Calendario bloqueado. Puedes navegar entre meses pero no editar.' : 
+                'Edición de aviso cancelada.';
+            // Restaurar botones
+            saveAlert.disabled = false;
+            deleteAlert.disabled = false;
+        });
+        
+        // Cerrar modal al hacer clic fuera
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+                statusBar.textContent = isLocked ? 
+                    'Calendario bloqueado. Puedes navegar entre meses pero no editar.' : 
+                    'Edición de aviso cancelada.';
+                // Restaurar botones
+                saveAlert.disabled = false;
+                deleteAlert.disabled = false;
+            }
+        });
+        
+        // Navegar al mes anterior
+        prevMonthBtn.addEventListener('click', () => {
+            currentMonth--;
+            if (currentMonth < 0) {
+                currentMonth = 11;
+                currentYear--;
+            }
+            generateCalendar(currentMonth, currentYear);
+        });
+        
+        // Navegar al mes siguiente
+        nextMonthBtn.addEventListener('click', () => {
+            currentMonth++;
+            if (currentMonth > 11) {
+                currentMonth = 0;
+                currentYear++;
+            }
+            generateCalendar(currentMonth, currentYear);
+        });
+        
+        // Configurar botones de modo
+        colorBtn.addEventListener('click', () => setActiveMode('color'));
+        textBtn.addEventListener('click', () => setActiveMode('text'));
+        alertBtn.addEventListener('click', () => setActiveMode('alert'));
+        
+        // Configurar botón de bloqueo
+        lockBtn.addEventListener('click', toggleLock);
+        
+        // Exportar datos a JSON
+        exportBtn.addEventListener('click', () => {
+            // Recopilar todos los datos de localStorage
+            const allData = {};
+            const totalKeys = localStorage.length;
+            
+            for (let i = 0; i < totalKeys; i++) {
+                const key = localStorage.key(i);
+                if (key.startsWith('day_') || key.startsWith('calendar_')) {
+                    allData[key] = JSON.parse(localStorage.getItem(key));
+                }
+            }
+            
+            // Crear JSON
+            const jsonData = JSON.stringify(allData, null, 2);
+            const blob = new Blob([jsonData], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            
+            // Crear enlace de descarga
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'datoscalendario.json';
+            document.body.appendChild(a);
+            a.click();
+            
+            // Limpiar
+            setTimeout(() => {
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url);
+                statusBar.textContent = 'Datos exportados correctamente a datoscalendario.json';
+            }, 100);
+        });
+        
+        // Importar datos desde JSON
+        importBtn.addEventListener('click', () => {
+            if (isLocked) {
+                statusBar.textContent = 'Desbloquea el calendario para importar datos.';
+                return;
+            }
+            
+            fileInput.click();
+        });
+        
+        fileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+            
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                try {
+                    const jsonData = JSON.parse(event.target.result);
+                    
+                    // Guardar todos los datos en localStorage
+                    for (const key in jsonData) {
+                        localStorage.setItem(key, JSON.stringify(jsonData[key]));
+                    }
+                    
+                    // Recargar calendario
+                    generateCalendar(currentMonth, currentYear);
+                    statusBar.textContent = 'Datos importados correctamente desde datoscalendario.json';
+                } catch (error) {
+                    alert('Error al importar el archivo: Formato JSON inválido');
+                    console.error(error);
+                }
+            };
+            reader.readAsText(file);
+        });
+        
+        // Inicializar calendario
+        generateCalendar(currentMonth, currentYear);
+    </script>
+</body>
+</html>
