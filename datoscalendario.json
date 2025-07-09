@@ -18,7 +18,8 @@
     "color": "red"
   },
   "day_21_6_2025": {
-    "color": "red"
+    "color": "red",
+    "note": "Ap"
   },
   "day_11_1_2025": {
     "color": "red"
@@ -73,6 +74,9 @@
   "day_13_7_2025": {
     "color": "red"
   },
+  "day_27_6_2025": {
+    "note": "Ap"
+  },
   "day_14_6_2025": {
     "note": "ft"
   },
@@ -111,7 +115,8 @@
     "color": "red"
   },
   "day_25_6_2025": {
-    "color": "red"
+    "color": "red",
+    "note": "Ap"
   },
   "day_8_10_2025": {
     "color": "yellow"
@@ -177,10 +182,12 @@
     "note": "St"
   },
   "day_28_6_2025": {
-    "color": "red"
+    "color": "red",
+    "note": "Ap"
   },
   "day_24_6_2025": {
-    "color": "red"
+    "color": "red",
+    "note": "Ap"
   },
   "day_23_2_2025": {
     "color": "yellow"
@@ -211,6 +218,9 @@
   },
   "day_6_5_2025": {
     "note": "Fm"
+  },
+  "day_26_6_2025": {
+    "note": "Ap"
   },
   "day_20_0_2026": {
     "color": "red"
@@ -264,7 +274,8 @@
     "color": "red"
   },
   "day_22_6_2025": {
-    "color": "red"
+    "color": "red",
+    "note": "lib"
   },
   "day_18_2_2025": {
     "color": "red"
@@ -282,7 +293,8 @@
     "color": "red"
   },
   "day_30_6_2025": {
-    "color": "red"
+    "color": "red",
+    "note": "Vac"
   },
   "day_21_11_2025": {
     "color": "yellow"
@@ -291,7 +303,8 @@
     "color": "red"
   },
   "day_23_6_2025": {
-    "color": "red"
+    "color": "red",
+    "note": "Ap"
   },
   "day_4_4_2025": {
     "color": "yellow"
@@ -328,15 +341,15 @@
     "color": "red",
     "note": "Ft"
   },
-  "day_8_7_2025": {
-    "color": "red"
-  },
   "day_20_3_2025": {
     "color": "yellow"
   },
   "day_29_5_2025": {
     "color": "yellow",
     "note": "Ft"
+  },
+  "day_8_7_2025": {
+    "color": "red"
   },
   "day_17_0_2026": {
     "color": "yellow"
@@ -379,11 +392,11 @@
   "day_20_4_2025": {
     "color": "red"
   },
-  "day_20_7_2025": {
-    "color": "red"
-  },
   "day_17_6_2025": {
     "note": "Fm"
+  },
+  "day_20_7_2025": {
+    "color": "red"
   },
   "day_20_11_2025": {
     "color": "yellow"
@@ -493,7 +506,8 @@
     "color": "red"
   },
   "day_29_6_2025": {
-    "color": "red"
+    "color": "red",
+    "note": "lib"
   },
   "day_4_7_2025": {
     "color": "red"
@@ -507,10 +521,11 @@
   "day_18_1_2025": {
     "color": "red"
   },
-  "day_15_4_2025": {
-    "color": "red"
-  },
   "day_31_6_2025": {
+    "color": "red",
+    "note": "Vac"
+  },
+  "day_15_4_2025": {
     "color": "red"
   }
 }
