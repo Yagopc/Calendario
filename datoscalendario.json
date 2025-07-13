@@ -2,10 +2,10 @@
   "day_23_8_2025": {
     "color": "red"
   },
-  "day_25_1_2025": {
-    "color": "red"
+  "day_2_10_2025": {
+    "color": "yellow"
   },
-  "day_27_4_2025": {
+  "day_25_1_2025": {
     "color": "red"
   },
   "day_13_0_2026": {
@@ -24,8 +24,14 @@
   "day_17_5_2025": {
     "color": "red"
   },
+  "day_27_4_2025": {
+    "color": "red"
+  },
   "day_3_8_2025": {
     "color": "white"
+  },
+  "day_5_9_2025": {
+    "color": "yellow"
   },
   "day_2_2_2025": {
     "color": "red"
@@ -55,11 +61,20 @@
   "day_10_5_2025": {
     "color": "red"
   },
-  "day_28_8_2025": {
+  "day_30_10_2025": {
     "color": "yellow"
+  },
+  "day_22_11_2025": {
+    "note": "T"
+  },
+  "day_28_8_2025": {
+    "color": "white"
   },
   "day_7_5_2025": {
     "color": "white"
+  },
+  "day_16_10_2025": {
+    "color": "yellow"
   },
   "day_29_7_2025": {
     "color": "red"
@@ -68,22 +83,22 @@
     "color": "yellow"
   },
   "day_7_11_2025": {
-    "color": "yellow"
+    "color": "white"
   },
   "day_26_7_2025": {
     "color": "red"
   },
   "day_8_10_2025": {
-    "color": "yellow"
-  },
-  "day_2_7_2025": {
-    "alert": "Santo de ángel"
+    "color": "white"
   },
   "day_23_11_2025": {
     "color": "red"
   },
   "day_1_3_2025": {
     "color": "red"
+  },
+  "day_2_7_2025": {
+    "alert": "Santo de ángel"
   },
   "day_2_11_2025": {
     "color": "red"
@@ -92,7 +107,7 @@
     "color": "red"
   },
   "day_27_8_2025": {
-    "color": "yellow"
+    "color": "white"
   },
   "day_25_11_2025": {
     "color": "red"
@@ -103,11 +118,15 @@
   "day_10_6_2025": {
     "note": "St"
   },
+  "day_10_7_2025": {
+    "note": "T"
+  },
   "day_23_2_2025": {
     "color": "yellow"
   },
   "day_3_0_2026": {
-    "color": "yellow"
+    "color": "yellow",
+    "note": "T"
   },
   "day_8_5_2025": {
     "color": "white"
@@ -118,11 +137,20 @@
   "day_22_1_2025": {
     "color": "yellow"
   },
+  "day_29_10_2025": {
+    "color": "yellow"
+  },
+  "day_20_8_2025": {
+    "color": "yellow"
+  },
+  "day_6_8_2025": {
+    "color": "yellow"
+  },
   "day_25_2_2025": {
     "color": "red"
   },
   "day_13_8_2025": {
-    "color": "yellow"
+    "color": "white"
   },
   "day_22_3_2025": {
     "color": "red"
@@ -137,6 +165,9 @@
     "color": "red"
   },
   "day_5_7_2025": {
+    "color": "red"
+  },
+  "day_16_0_2026": {
     "color": "red"
   },
   "day_25_10_2025": {
@@ -161,15 +192,21 @@
   "day_18_10_2025": {
     "color": "red"
   },
-  "day_21_11_2025": {
-    "color": "yellow"
-  },
   "day_23_6_2025": {
     "color": "red",
     "note": "Ap"
   },
   "day_1_7_2025": {
     "color": "red"
+  },
+  "day_9_0_2026": {
+    "color": "red"
+  },
+  "day_26_11_2025": {
+    "note": "T"
+  },
+  "day_21_11_2025": {
+    "color": "white"
   },
   "day_3_5_2025": {
     "color": "red"
@@ -187,6 +224,9 @@
   "day_18_4_2025": {
     "color": "yellow"
   },
+  "day_18_9_2025": {
+    "color": "yellow"
+  },
   "day_1_5_2025": {
     "color": "yellow"
   },
@@ -196,11 +236,14 @@
   "day_20_7_2025": {
     "color": "red"
   },
+  "day_1_0_2026": {
+    "color": "red"
+  },
   "day_18_0_2026": {
     "color": "yellow"
   },
   "day_14_8_2025": {
-    "color": "yellow"
+    "color": "white"
   },
   "day_23_5_2025": {
     "note": "Ftc"
@@ -222,8 +265,15 @@
   "day_22_7_2025": {
     "color": "red"
   },
+  "day_27_11_2025": {
+    "color": "yellow",
+    "note": "T"
+  },
   "day_27_7_2025": {
     "color": "red"
+  },
+  "day_14_11_2025": {
+    "color": "yellow"
   },
   "day_31_4_2025": {
     "color": "yellow"
@@ -237,6 +287,9 @@
   "day_4_2_2025": {
     "color": "red"
   },
+  "day_13_11_2025": {
+    "color": "yellow"
+  },
   "day_20_5_2025": {
     "note": "FM"
   },
@@ -244,10 +297,10 @@
     "color": "red"
   },
   "day_23_10_2025": {
-    "color": "yellow"
+    "color": "white"
   },
   "day_11_9_2025": {
-    "color": "yellow"
+    "color": "white"
   },
   "day_6_4_2025": {
     "color": "red"
@@ -271,16 +324,23 @@
     "color": "red"
   },
   "day_24_11_2025": {
-    "color": "blue"
+    "color": "blue",
+    "note": "T"
   },
   "day_15_4_2025": {
     "color": "red"
   },
-  "day_3_6_2025": {
-    "note": "ft"
+  "day_21_8_2025": {
+    "color": "yellow"
+  },
+  "day_24_7_2025": {
+    "note": "T"
   },
   "day_2_8_2025": {
     "color": "red"
+  },
+  "day_3_6_2025": {
+    "note": "ft"
   },
   "day_11_1_2025": {
     "color": "red"
@@ -328,10 +388,11 @@
     "note": "Ap"
   },
   "day_4_0_2026": {
-    "color": "yellow"
+    "color": "yellow",
+    "note": "T"
   },
   "day_26_9_2025": {
-    "color": "yellow"
+    "color": "white"
   },
   "day_28_7_2025": {
     "color": "red"
@@ -372,7 +433,7 @@
     "note": "Ap"
   },
   "day_12_9_2025": {
-    "color": "yellow"
+    "color": "white"
   },
   "day_6_0_2025": {
     "color": "red"
@@ -401,6 +462,9 @@
   "day_22_2_2025": {
     "color": "yellow"
   },
+  "day_7_8_2025": {
+    "color": "yellow"
+  },
   "day_21_7_2025": {
     "color": "red"
   },
@@ -408,10 +472,10 @@
     "note": "Sm"
   },
   "day_25_9_2025": {
-    "color": "yellow"
+    "color": "white"
   },
   "day_31_0_2026": {
-    "color": "red"
+    "color": "yellow"
   },
   "day_18_3_2025": {
     "color": "red"
@@ -427,10 +491,13 @@
     "color": "yellow"
   },
   "day_22_10_2025": {
-    "color": "yellow"
+    "color": "white"
   },
   "day_18_6_2025": {
     "note": "Ft"
+  },
+  "day_2_0_2026": {
+    "note": "T"
   },
   "day_13_6_2025": {
     "color": "yellow",
@@ -441,6 +508,9 @@
   },
   "day_24_5_2025": {
     "color": "red"
+  },
+  "day_23_7_2025": {
+    "note": "T"
   },
   "day_6_3_2025": {
     "color": "yellow"
@@ -454,6 +524,9 @@
   "day_29_5_2025": {
     "color": "yellow",
     "note": "Ft"
+  },
+  "day_29_11_2025": {
+    "note": "T"
   },
   "day_17_0_2026": {
     "color": "yellow"
@@ -488,7 +561,7 @@
     "note": "Fm"
   },
   "day_20_11_2025": {
-    "color": "yellow"
+    "color": "white"
   },
   "day_8_11_2025": {
     "color": "blue"
@@ -500,7 +573,11 @@
     "color": "red"
   },
   "day_4_9_2025": {
-    "alert": "Boda de Manoli"
+    "alert": "Boda de Manoli",
+    "color": "yellow"
+  },
+  "day_19_9_2025": {
+    "color": "yellow"
   },
   "day_18_7_2025": {
     "color": "red"
@@ -521,10 +598,17 @@
     "color": "red"
   },
   "day_9_10_2025": {
-    "color": "yellow"
+    "color": "white"
+  },
+  "day_28_11_2025": {
+    "color": "yellow",
+    "note": "T"
   },
   "day_16_8_2025": {
     "color": "red"
+  },
+  "day_23_0_2026": {
+    "color": "white"
   },
   "day_4_10_2025": {
     "color": "red"
@@ -542,8 +626,14 @@
   "day_28_0_2025": {
     "color": "red"
   },
+  "day_15_10_2025": {
+    "color": "yellow"
+  },
   "day_31_6_2025": {
     "color": "red",
     "note": "Vac"
+  },
+  "day_9_7_2025": {
+    "note": "T"
   }
 }
