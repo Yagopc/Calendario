@@ -700,23 +700,23 @@
     "color": "red"
   },
   "2025-07-21": {
-    "color": "orange",
+    "color": "red",
     "note": "AP"
   },
   "2025-07-23": {
-    "color": "orange",
+    "color": "red",
     "note": "AP"
   },
   "2025-07-24": {
-    "color": "orange",
+    "color": "red",
     "note": "AP"
   },
   "2025-07-25": {
-    "color": "orange",
+    "color": "red",
     "note": "AP"
   },
   "2025-07-28": {
-    "color": "orange",
+    "color": "red",
     "note": "AP"
   },
   "2025-07-30": {
@@ -728,8 +728,7 @@
     "note": "VAC"
   },
   "2025-12-24": {
-    "color": "orange",
-    "note": "T"
+    "color": "blue"
   },
   "2025-12-31": {
     "color": "blue"
@@ -812,40 +811,38 @@
     "color": "red"
   },
   "2025-10-04": {
-    "color": "orange",
-    "alert": "Boda Manoli",
-    "note": "AP"
+    "color": "yellow",
+    "alert": "Boda Manoli"
   },
   "2025-10-05": {
-    "color": "orange",
-    "note": "AP"
+    "color": "yellow"
   },
   "2025-10-19": {
     "color": "yellow"
   },
   "2025-11-08": {
-    "color": "red"
+    "color": "yellow"
   },
   "2025-11-09": {
-    "color": "red"
+    "color": "yellow"
   },
   "2025-11-22": {
-    "color": "red"
+    "color": "yellow"
   },
   "2025-11-23": {
-    "color": "red"
+    "color": "yellow"
   },
   "2025-12-06": {
-    "color": "red"
+    "color": "yellow"
   },
   "2025-12-07": {
-    "color": "red"
+    "color": "yellow"
   },
   "2025-12-20": {
-    "color": "red"
+    "color": "yellow"
   },
   "2025-12-21": {
-    "color": "red"
+    "color": "yellow"
   },
   "2025-08-02": {
     "alert": "Santo Ángel",
@@ -970,11 +967,11 @@
   },
   "2025-01-02": {
     "note": "AP",
-    "color": "orange"
+    "color": "red"
   },
   "2025-01-03": {
     "note": "AP",
-    "color": "orange"
+    "color": "red"
   },
   "2025-07-14": {
     "note": "Ft"
@@ -1044,41 +1041,37 @@
     "color": "red"
   },
   "2025-11-02": {
-    "color": "yellow"
+    "color": "red"
   },
   "2025-11-15": {
-    "color": "yellow"
+    "color": "red"
   },
   "2025-11-16": {
-    "color": "yellow"
+    "color": "red"
   },
   "2025-11-29": {
-    "color": "yellow"
+    "color": "red"
   },
   "2025-11-30": {
-    "color": "yellow"
+    "color": "red"
   },
   "2025-12-13": {
-    "color": "yellow"
+    "color": "red"
   },
   "2025-12-14": {
-    "color": "yellow"
+    "color": "red"
   },
   "2025-12-27": {
-    "color": "orange",
-    "note": "T"
+    "color": "red"
   },
   "2025-12-28": {
-    "color": "orange",
-    "note": "T"
+    "color": "red"
   },
   "2026-01-03": {
-    "color": "orange",
-    "note": "T"
+    "color": "yellow"
   },
   "2026-01-04": {
-    "color": "orange",
-    "note": "T"
+    "color": "yellow"
   },
   "2026-01-10": {
     "color": "red"
@@ -1322,22 +1315,5 @@
   },
   "2025-12-30": {
     "color": "red"
-  },
-  "2025-12-22": {
-    "note": "T",
-    "color": "orange"
-  },
-  "2025-12-26": {
-    "note": "T",
-    "color": "orange"
-  },
-  "2025-12-29": {
-    "note": "T",
-    "color": "orange"
-  },
-  "2026-01-01": {
-    "color": "red"
-  },
-  "2026-01-02": {
-    "note": "T",
-    "color": "
+  }
+  }
