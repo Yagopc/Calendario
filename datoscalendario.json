@@ -1,1312 +1,1343 @@
 {
-  "día_23_8_2025": {
-    "color": "rojo"
+  "day_23_8_2025": {
+    "color": "red"
   },
-  "día_2_10_2025": {
-    "color": "amarillo"
+  "day_2_10_2025": {
+    "color": "yellow"
   },
-  "día_25_1_2025": {
-    "color": "rojo"
+  "day_25_1_2025": {
+    "color": "red"
   },
-  "día_13_0_2026": {
-    "color": "rojo"
+  "day_13_0_2026": {
+    "color": "red"
   },
-  "día_21_6_2025": {
-    "color": "rojo",
-    "nota": "Ap"
+  "day_21_6_2025": {
+    "color": "red",
+    "note": "Ap"
   },
-  "día_19_3_2025": {
-    "color": "amarillo"
+  "day_19_3_2025": {
+    "color": "yellow"
   },
-  "día_2_6_2025": {
-    "nota": "ft"
+  "day_2_6_2025": {
+    "note": "ft"
   },
-  "día_17_5_2025": {
-    "color": "rojo"
+  "day_17_5_2025": {
+    "color": "red"
   },
-  "día_27_4_2025": {
-    "color": "rojo"
+  "day_27_4_2025": {
+    "color": "red"
   },
-  "día_3_8_2025": {
-    "color": "blanco"
+  "day_3_8_2025": {
+    "color": "white"
   },
-  "día_5_9_2025": {
-    "color": "amarillo"
+  "day_5_9_2025": {
+    "color": "yellow"
   },
-  "día_2_2_2025": {
-    "color": "rojo"
+  "day_2_2_2025": {
+    "color": "red"
   },
-  "día_29_3_2025": {
-    "color": "rojo"
+  "day_29_3_2025": {
+    "color": "red"
   },
-  "día_17_3_2025": {
-    "color": "azul"
+  "day_17_3_2025": {
+    "color": "blue"
   },
-  "día_16_11_2025": {
-    "color": "rojo"
+  "day_16_11_2025": {
+    "color": "red"
   },
-  "día_1_2_2025": {
-    "color": "rojo"
+  "day_1_2_2025": {
+    "color": "red"
   },
-  "día_9_2_2025": {
-    "color": "amarillo"
+  "day_9_2_2025": {
+    "color": "yellow"
   },
-  "día_27_6_2025": {
-    "nota": "Ap"
+  "day_27_6_2025": {
+    "note": "Ap"
   },
-  "día_14_6_2025": {
-    "nota": "ft"
+  "day_14_6_2025": {
+    "note": "ft"
   },
-  "día_16_5_2025": {},
-  "día_10_5_2025": {
-    "color": "rojo"
+  "day_16_5_2025": {},
+  "day_10_5_2025": {
+    "color": "red"
   },
-  "día_22_11_2025": {},
-  "día_28_8_2025": {
-    "color": "blanco"
+  "day_22_11_2025": {},
+  "day_28_8_2025": {
+    "color": "white"
   },
-  "día_30_10_2025": {
-    "color": "amarillo"
+  "day_30_10_2025": {
+    "color": "yellow"
   },
-  "día_7_5_2025": {
-    "color": "blanco"
+  "day_7_5_2025": {
+    "color": "white"
   },
-  "día_16_10_2025": {
-    "color": "amarillo"
+  "day_16_10_2025": {
+    "color": "yellow"
   },
-  "día_29_7_2025": {
-    "color": "rojo"
+  "day_29_7_2025": {
+    "color": "red"
   },
-  "día_12_0_2025": {
-    "color": "amarillo"
+  "day_12_0_2025": {
+    "color": "yellow"
   },
-  "día_7_11_2025": {
-    "color": "blanco"
+  "day_7_11_2025": {
+    "color": "white"
   },
-  "día_26_7_2025": {
-    "color": "rojo"
+  "day_26_7_2025": {
+    "color": "red"
   },
-  "día_8_10_2025": {
-    "color": "blanco"
+  "day_8_10_2025": {
+    "color": "white"
   },
-  "día_23_11_2025": {
-    "color": "rojo"
+  "day_23_11_2025": {
+    "color": "red"
   },
-  "día_1_3_2025": {
-    "color": "rojo"
+  "day_1_3_2025": {
+    "color": "red"
   },
-  "día_2_7_2025": {
-    "alerta": "Santo de ángel"
+  "day_2_7_2025": {
+    "alert": "Santo de ángel"
   },
-  "día_2_11_2025": {
-    "color": "rojo"
+  "day_2_11_2025": {
+    "color": "red"
   },
-  "día_8_6_2025": {
-    "color": "rojo"
+  "day_8_6_2025": {
+    "color": "red"
   },
-  "día_27_8_2025": {
-    "color": "blanco"
+  "day_27_8_2025": {
+    "color": "white"
   },
-  "día_25_11_2025": {
-    "color": "rojo"
+  "day_25_11_2025": {
+    "color": "red"
   },
-  "día_21_0_2025": {
-    "color": "rojo"
+  "day_21_0_2025": {
+    "color": "red"
   },
-  "día_10_6_2025": {
-    "nota": "St"
+  "day_10_6_2025": {
+    "note": "St"
   },
-  "día_10_7_2025": {
-    "nota": "T"
+  "day_10_7_2025": {
+    "note": "T"
   },
-  "día_23_2_2025": {
-    "color": "amarillo"
+  "day_23_2_2025": {
+    "color": "yellow"
   },
-  "día_3_0_2026": {
-    "color": "amarillo",
-    "nota": "T"
+  "day_3_0_2026": {
+    "color": "yellow",
+    "note": "T"
   },
-  "día_8_5_2025": {
-    "color": "blanco"
+  "day_8_5_2025": {
+    "color": "white"
   },
-  "día_26_0_2025": {
-    "color": "amarillo"
+  "day_26_0_2025": {
+    "color": "yellow"
   },
-  "día_22_1_2025": {
-    "color": "amarillo"
+  "day_22_1_2025": {
+    "color": "yellow"
   },
-  "día_29_10_2025": {
-    "color": "amarillo"
+  "day_29_10_2025": {
+    "color": "yellow"
   },
-  "día_20_8_2025": {
-    "color": "amarillo"
+  "day_20_8_2025": {
+    "color": "yellow"
   },
-  "día_6_8_2025": {
-    "color": "amarillo"
+  "day_6_8_2025": {
+    "color": "yellow"
   },
-  "día_25_2_2025": {
-    "color": "rojo"
+  "day_25_2_2025": {
+    "color": "red"
   },
-  "día_13_8_2025": {
-    "color": "blanco"
+  "day_13_8_2025": {
+    "color": "white"
   },
-  "día_22_3_2025": {
-    "color": "rojo"
+  "day_22_3_2025": {
+    "color": "red"
   },
-  "día_30_8_2025": {
-    "color": "rojo"
+  "day_30_8_2025": {
+    "color": "red"
   },
-  "día_11_0_2025": {
-    "color": "amarillo"
+  "day_11_0_2025": {
+    "color": "yellow"
   },
-  "día_14_7_2025": {
-    "color": "rojo"
+  "day_14_7_2025": {
+    "color": "red"
   },
-  "día_16_0_2026": {
-    "color": "rojo"
+  "day_16_0_2026": {
+    "color": "red"
   },
-  "día_5_7_2025": {
-    "color": "rojo"
+  "day_5_7_2025": {
+    "color": "red"
   },
-  "día_25_10_2025": {
-    "color": "rojo"
+  "day_25_10_2025": {
+    "color": "red"
   },
-  "día_11_2_2025": {
-    "color": "rojo"
+  "day_11_2_2025": {
+    "color": "red"
   },
-  "día_22_6_2025": {
-    "color": "rojo",
-    "nota": "lib"
+  "day_22_6_2025": {
+    "color": "red",
+    "note": "lib"
   },
-  "día_18_2_2025": {
-    "color": "rojo"
+  "day_18_2_2025": {
+    "color": "red"
   },
-  "día_5_3_2025": {
-    "color": "amarillo"
+  "day_5_3_2025": {
+    "color": "yellow"
   },
-  "día_1_0_2025": {
-    "color": "rojo"
+  "day_1_0_2025": {
+    "color": "red"
   },
-  "día_18_10_2025": {
-    "color": "rojo"
+  "day_18_10_2025": {
+    "color": "red"
   },
-  "día_23_6_2025": {
-    "color": "rojo",
-    "nota": "Ap"
+  "day_23_6_2025": {
+    "color": "red",
+    "note": "Ap"
   },
-  "día_1_7_2025": {
-    "color": "rojo"
+  "day_1_7_2025": {
+    "color": "red"
   },
-  "día_9_0_2026": {
-    "color": "rojo"
+  "day_9_0_2026": {
+    "color": "red"
   },
-  "día_26_11_2025": {
-    "nota": "T"
+  "day_26_11_2025": {
+    "note": "T"
   },
-  "día_21_11_2025": {
-    "color": "blanco"
+  "day_21_11_2025": {
+    "color": "white"
   },
-  "día_3_5_2025": {
-    "color": "rojo"
+  "day_3_5_2025": {
+    "color": "red"
   },
-  "día_11_5_2025": {
-    "color": "azul",
-    "nota": "Ft"
+  "day_11_5_2025": {
+    "color": "blue",
+    "note": "Ft"
   },
-  "día_8_7_2025": {
-    "color": "rojo"
+  "day_8_7_2025": {
+    "color": "red"
   },
-  "día_21_5_2025": {
-    "color": "blanco"
+  "day_21_5_2025": {
+    "color": "white"
   },
-  "día_18_4_2025": {
-    "color": "amarillo"
+  "day_18_4_2025": {
+    "color": "yellow"
   },
-  "día_18_9_2025": {
-    "color": "amarillo"
+  "day_18_9_2025": {
+    "color": "yellow"
   },
-  "día_1_5_2025": {
-    "color": "amarillo"
+  "day_1_5_2025": {
+    "color": "yellow"
   },
-  "día_21_9_2025": {
-    "color": "rojo"
+  "day_21_9_2025": {
+    "color": "red"
   },
-  "día_20_7_2025": {
-    "color": "rojo"
+  "day_20_7_2025": {
+    "color": "red"
   },
-  "día_1_0_2026": {
-    "color": "rojo"
+  "day_1_0_2026": {
+    "color": "red"
   },
-  "día_18_0_2026": {
-    "color": "amarillo"
+  "day_18_0_2026": {
+    "color": "yellow"
   },
-  "día_14_8_2025": {
-    "color": "blanco"
+  "day_14_8_2025": {
+    "color": "white"
   },
-  "día_23_5_2025": {
-    "nota": "FTC"
+  "day_23_5_2025": {
+    "note": "Ftc"
   },
-  "día_7_6_2025": {
-    "alerta": "Cumpleaños de ángel",
-    "nota": "ft"
+  "day_7_6_2025": {
+    "alert": "Cumpleaños de ángel",
+    "note": "ft"
   },
-  "día_30_5_2025": {
-    "nota": "Ft"
+  "day_30_5_2025": {
+    "note": "Ft"
   },
-  "día_28_5_2025": {
-    "color": "amarillo",
-    "nota": "Fm"
+  "day_28_5_2025": {
+    "color": "yellow",
+    "note": "Fm"
   },
-  "día_11_10_2025": {
-    "color": "rojo"
+  "day_11_10_2025": {
+    "color": "red"
   },
-  "día_22_7_2025": {
-    "color": "rojo"
+  "day_22_7_2025": {
+    "color": "red"
   },
-  "día_27_11_2025": {
-    "color": "amarillo",
-    "nota": "T"
+  "day_27_11_2025": {
+    "color": "yellow",
+    "note": "T"
   },
-  "día_27_7_2025": {
-    "color": "rojo"
+  "day_27_7_2025": {
+    "color": "red"
   },
-  "día_14_11_2025": {
-    "color": "amarillo"
+  "day_14_11_2025": {
+    "color": "yellow"
   },
-  "día_31_4_2025": {
-    "color": "amarillo"
+  "day_31_4_2025": {
+    "color": "yellow"
   },
-  "día_1_4_2025": {
-    "color": "azul"
+  "day_1_4_2025": {
+    "color": "blue"
   },
-  "día_23_1_2025": {
-    "color": "amarillo"
+  "day_23_1_2025": {
+    "color": "yellow"
   },
-  "día_4_2_2025": {
-    "color": "rojo"
+  "day_4_2_2025": {
+    "color": "red"
   },
-  "día_13_11_2025": {
-    "color": "amarillo"
+  "day_13_11_2025": {
+    "color": "yellow"
   },
-  "día_20_5_2025": {
-    "nota": "FM"
+  "day_20_5_2025": {
+    "note": "FM"
   },
-  "día_8_3_2025": {
-    "color": "rojo"
+  "day_8_3_2025": {
+    "color": "red"
   },
-  "día_23_10_2025": {
-    "color": "blanco"
+  "day_23_10_2025": {
+    "color": "white"
   },
-  "día_11_9_2025": {
-    "color": "blanco"
+  "day_11_9_2025": {
+    "color": "white"
   },
-  "día_6_4_2025": {
-    "color": "rojo"
+  "day_6_4_2025": {
+    "color": "red"
   },
-  "día_8_1_2025": {
-    "color": "amarillo"
+  "day_8_1_2025": {
+    "color": "yellow"
   },
-  "día_4_1_2025": {
-    "color": "rojo"
+  "day_4_1_2025": {
+    "color": "red"
   },
-  "día_13_5_2025": {
-    "nota": "Ft"
+  "day_13_5_2025": {
+    "note": "Ft"
   },
-  "día_9_6_2025": {
-    "nota": "ft"
+  "day_9_6_2025": {
+    "note": "ft"
   },
-  "día_29_4_2025": {
-    "color": "rojo"
+  "day_29_4_2025": {
+    "color": "red"
   },
-  "día_18_1_2025": {
-    "color": "rojo"
+  "day_18_1_2025": {
+    "color": "red"
   },
-  "día_24_11_2025": {
-    "color": "azul",
-    "nota": "T"
+  "day_24_11_2025": {
+    "color": "blue",
+    "note": "T"
   },
-  "día_15_4_2025": {
-    "color": "rojo"
+  "day_15_4_2025": {
+    "color": "red"
   },
-  "día_21_8_2025": {
-    "color": "amarillo"
+  "day_21_8_2025": {
+    "color": "yellow"
   },
-  "día_24_7_2025": {
-    "nota": "T"
+  "day_24_7_2025": {
+    "note": "T"
   },
-  "día_2_8_2025": {
-    "color": "rojo"
+  "day_2_8_2025": {
+    "color": "red"
   },
-  "día_3_6_2025": {
-    "nota": "ft"
+  "day_3_6_2025": {
+    "note": "ft"
   },
-  "día_11_1_2025": {
-    "color": "rojo"
+  "day_11_1_2025": {
+    "color": "red"
   },
-  "día_22_5_2025": {
-    "color": "blanco"
+  "day_22_5_2025": {
+    "color": "white"
   },
-  "día_15_5_2025": {
-    "color": "amarillo",
-    "nota": "Ft"
+  "day_15_5_2025": {
+    "color": "yellow",
+    "note": "Ft"
   },
-  "día_30_11_2025": {
-    "color": "rojo"
+  "day_30_11_2025": {
+    "color": "red"
   },
-  "día_1_8_2025": {
-    "color": "rojo"
+  "day_1_8_2025": {
+    "color": "red"
   },
-  "día_12_6_2025": {
-    "color": "amarillo",
-    "nota": "Fm"
+  "day_12_6_2025": {
+    "color": "yellow",
+    "note": "Fm"
   },
-  "día_17_4_2025": {
-    "color": "amarillo"
+  "day_17_4_2025": {
+    "color": "yellow"
   },
-  "día_31_11_2025": {
-    "color": "azul"
+  "day_31_11_2025": {
+    "color": "blue"
   },
-  "día_13_7_2025": {
-    "color": "rojo"
+  "day_13_7_2025": {
+    "color": "red"
   },
-  "día_7_0_2025": {
-    "color": "rojo"
+  "day_7_0_2025": {
+    "color": "red"
   },
-  "día_15_3_2025": {
-    "color": "rojo"
+  "day_15_3_2025": {
+    "color": "red"
   },
-  "día_28_9_2025": {
-    "color": "rojo"
+  "day_28_9_2025": {
+    "color": "red"
   },
-  "día_1_6_2025": {
-    "color": "rojo"
+  "day_1_6_2025": {
+    "color": "red"
   },
-  "día_25_6_2025": {
-    "color": "rojo",
-    "nota": "Ap"
+  "day_25_6_2025": {
+    "color": "red",
+    "note": "Ap"
   },
-  "día_4_0_2026": {
-    "color": "amarillo"
+  "day_4_0_2026": {
+    "color": "yellow"
   },
-  "día_26_9_2025": {
-    "color": "blanco"
+  "day_26_9_2025": {
+    "color": "white"
   },
-  "día_28_7_2025": {
-    "color": "rojo"
+  "day_28_7_2025": {
+    "color": "red"
   },
-  "día_1_10_2025": {
-    "color": "azul"
+  "day_1_10_2025": {
+    "color": "blue"
   },
-  "día_27_5_2025": {
-    "nota": "St"
+  "day_27_5_2025": {
+    "note": "St"
   },
-  "día_19_7_2025": {
-    "color": "rojo"
+  "day_19_7_2025": {
+    "color": "red"
   },
-  "día_6_11_2025": {
-    "color": "azul"
+  "day_6_11_2025": {
+    "color": "blue"
   },
-  "día_8_2_2025": {
-    "color": "amarillo"
+  "day_8_2_2025": {
+    "color": "yellow"
   },
-  "día_13_4_2025": {
-    "color": "rojo"
+  "day_13_4_2025": {
+    "color": "red"
   },
-  "día_15_7_2025": {
-    "color": "azul"
+  "day_15_7_2025": {
+    "color": "blue"
   },
-  "día_9_11_2025": {
-    "color": "rojo"
+  "day_9_11_2025": {
+    "color": "red"
   },
-  "día_4_6_2025": {
-    "nota": "ft"
+  "day_4_6_2025": {
+    "note": "ft"
   },
-  "día_28_6_2025": {
-    "color": "rojo",
-    "nota": "Ap"
+  "day_28_6_2025": {
+    "color": "red",
+    "note": "Ap"
   },
-  "día_24_6_2025": {
-    "color": "rojo",
-    "nota": "Ap"
+  "day_24_6_2025": {
+    "color": "red",
+    "note": "Ap"
   },
-  "día_12_9_2025": {
-    "color": "blanco"
+  "day_12_9_2025": {
+    "color": "white"
   },
-  "día_6_0_2025": {
-    "color": "rojo"
+  "day_6_0_2025": {
+    "color": "red"
   },
-  "día_27_1_2025": {
-    "color": "blanco"
+  "day_27_1_2025": {
+    "color": "white"
   },
-  "día_14_0_2025": {
-    "color": "rojo"
+  "day_14_0_2025": {
+    "color": "red"
   },
-  "día_6_5_2025": {
-    "nota": "Fm"
+  "day_6_5_2025": {
+    "note": "Fm"
   },
-  "día_26_6_2025": {
-    "nota": "Ap"
+  "day_26_6_2025": {
+    "note": "Ap"
   },
-  "día_20_0_2026": {
-    "color": "rojo"
+  "day_20_0_2026": {
+    "color": "red"
   },
-  "día_11_7_2025": {
-    "color": "rojo"
+  "day_11_7_2025": {
+    "color": "red"
   },
-  "día_25_0_2025": {
-    "color": "amarillo"
+  "day_25_0_2025": {
+    "color": "yellow"
   },
-  "día_22_2_2025": {
-    "color": "amarillo"
+  "day_22_2_2025": {
+    "color": "yellow"
   },
-  "día_7_8_2025": {
-    "color": "amarillo"
+  "day_7_8_2025": {
+    "color": "yellow"
   },
-  "día_21_7_2025": {
-    "color": "rojo"
+  "day_21_7_2025": {
+    "color": "red"
   },
-  "día_16_6_2025": {
-    "nota": "Sm"
+  "day_16_6_2025": {
+    "note": "Sm"
   },
-  "día_25_9_2025": {
-    "color": "blanco"
+  "day_25_9_2025": {
+    "color": "white"
   },
-  "día_31_0_2026": {
-    "color": "amarillo"
+  "day_31_0_2026": {
+    "color": "yellow"
   },
-  "día_18_3_2025": {
-    "color": "rojo"
+  "day_18_3_2025": {
+    "color": "red"
   },
-  "día_27_0_2026": {
-    "color": "rojo"
+  "day_27_0_2026": {
+    "color": "red"
   },
-  "día_30_6_2025": {
-    "color": "rojo",
-    "nota": "Vac"
+  "day_30_6_2025": {
+    "color": "red",
+    "note": "Vac"
   },
-  "día_4_4_2025": {
-    "color": "amarillo"
+  "day_4_4_2025": {
+    "color": "yellow"
   },
-  "día_22_10_2025": {
-    "color": "blanco"
+  "day_22_10_2025": {
+    "color": "white"
   },
-  "día_18_6_2025": {
-    "nota": "Ft"
+  "day_18_6_2025": {
+    "note": "Ft"
   },
-  "día_2_0_2026": {
-    "nota": "T"
+  "day_2_0_2026": {
+    "note": "T"
   },
-  "día_13_6_2025": {
-    "color": "amarillo",
-    "nota": "Ft"
+  "day_13_6_2025": {
+    "color": "yellow",
+    "note": "Ft"
   },
-  "día_26_5_2025": {
-    "color": "rojo"
+  "day_26_5_2025": {
+    "color": "red"
   },
-  "día_24_5_2025": {
-    "color": "rojo"
+  "day_24_5_2025": {
+    "color": "red"
   },
-  "día_23_7_2025": {
-    "nota": "T"
+  "day_23_7_2025": {
+    "note": "T"
   },
-  "día_6_3_2025": {
-    "color": "amarillo"
+  "day_6_3_2025": {
+    "color": "yellow"
   },
-  "día_6_0_2026": {
-    "color": "rojo"
+  "day_6_0_2026": {
+    "color": "red"
   },
-  "día_20_3_2025": {
-    "color": "amarillo"
+  "day_20_3_2025": {
+    "color": "yellow"
   },
-  "día_29_11_2025": {
-    "nota": "T"
+  "day_29_11_2025": {
+    "note": "T"
   },
-  "día_29_5_2025": {
-    "color": "amarillo",
-    "nota": "Ft"
+  "day_29_5_2025": {
+    "color": "yellow",
+    "note": "Ft"
   },
-  "día_17_0_2026": {
-    "color": "amarillo"
+  "day_17_0_2026": {
+    "color": "yellow"
   },
-  "día_11_6_2025": {
-    "color": "blanco",
-    "nota": "ft"
+  "day_11_6_2025": {
+    "color": "white",
+    "note": "ft"
   },
-  "día_7_7_2025": {
-    "color": "rojo"
+  "day_7_7_2025": {
+    "color": "red"
   },
-  "día_28_1_2025": {
-    "color": "rojo"
+  "day_28_1_2025": {
+    "color": "red"
   },
-  "día_9_8_2025": {
-    "color": "rojo"
+  "day_9_8_2025": {
+    "color": "red"
   },
-  "día_25_5_2025": {
-    "nota": "Ft"
+  "day_25_5_2025": {
+    "note": "Ft"
   },
-  "día_14_9_2025": {
-    "color": "rojo"
+  "day_14_9_2025": {
+    "color": "red"
   },
-  "día_14_5_2025": {
-    "color": "amarillo",
-    "nota": "Fm"
+  "day_14_5_2025": {
+    "color": "yellow",
+    "note": "Fm"
   },
-  "día_20_4_2025": {
-    "color": "rojo"
+  "day_20_4_2025": {
+    "color": "red"
   },
-  "día_17_6_2025": {
-    "nota": "Fm"
+  "day_17_6_2025": {
+    "note": "Fm"
   },
-  "día_20_11_2025": {
-    "color": "blanco"
+  "day_20_11_2025": {
+    "color": "white"
   },
-  "día_8_11_2025": {
-    "color": "azul"
+  "day_8_11_2025": {
+    "color": "blue"
   },
-  "día_15_6_2025": {
-    "color": "rojo"
+  "day_15_6_2025": {
+    "color": "red"
   },
-  "día_12_7_2025": {
-    "color": "rojo"
+  "day_12_7_2025": {
+    "color": "red"
   },
-  "día_4_9_2025": {
-    "alerta": "Boda de Manoli",
-    "color": "amarillo"
+  "day_4_9_2025": {
+    "alert": "Boda de Manoli",
+    "color": "yellow"
   },
-  "día_19_9_2025": {
-    "color": "amarillo"
+  "day_19_9_2025": {
+    "color": "yellow"
   },
-  "día_18_7_2025": {
-    "color": "rojo"
+  "day_18_7_2025": {
+    "color": "red"
   },
-  "día_3_0_2025": {
-    "color": "rojo"
+  "day_3_0_2025": {
+    "color": "red"
   },
-  "día_3_4_2025": {
-    "color": "amarillo"
+  "day_3_4_2025": {
+    "color": "yellow"
   },
-  "día_2_0_2025": {
-    "color": "rojo"
+  "day_2_0_2025": {
+    "color": "red"
   },
-  "día_6_7_2025": {
-    "color": "rojo"
+  "day_6_7_2025": {
+    "color": "red"
   },
-  "día_25_7_2025": {
-    "color": "rojo"
+  "day_25_7_2025": {
+    "color": "red"
   },
-  "día_9_10_2025": {
-    "color": "blanco"
+  "day_9_10_2025": {
+    "color": "white"
   },
-  "día_28_11_2025": {
-    "color": "amarillo",
-    "nota": "T"
+  "day_28_11_2025": {
+    "color": "yellow",
+    "note": "T"
   },
-  "día_16_8_2025": {
-    "color": "rojo"
+  "day_16_8_2025": {
+    "color": "red"
   },
-  "día_23_0_2026": {
-    "color": "blanco"
+  "day_23_0_2026": {
+    "color": "white"
   },
-  "día_4_10_2025": {
-    "color": "rojo"
+  "day_4_10_2025": {
+    "color": "red"
   },
-  "día_7_9_2025": {
-    "color": "rojo"
+  "day_7_9_2025": {
+    "color": "red"
   },
-  "día_29_6_2025": {
-    "color": "rojo",
-    "nota": "lib"
+  "day_29_6_2025": {
+    "color": "red",
+    "note": "lib"
   },
-  "día_4_7_2025": {
-    "color": "rojo"
+  "day_4_7_2025": {
+    "color": "red"
   },
-  "día_28_0_2025": {
-    "color": "rojo"
+  "day_28_0_2025": {
+    "color": "red"
   },
-  "día_15_10_2025": {
-    "color": "amarillo"
+  "day_15_10_2025": {
+    "color": "yellow"
   },
-  "día_31_6_2025": {
-    "color": "rojo",
-    "nota": "Vac"
+  "day_31_6_2025": {
+    "color": "red",
+    "note": "Vac"
   },
-  "día_9_7_2025": {
-    "nota": "T"
+  "day_9_7_2025": {
+    "note": "T"
   },
-  "01-08-2025": {
-    "color": "rojo"
+  "2025-08-01": {
+    "color": "red"
   },
   "2025-08-04": {
-    "color": "rojo"
+    "color": "red"
   },
-  "06-08-2025": {
-    "color": "rojo"
+  "2025-08-06": {
+    "color": "red"
   },
-  "05-08-2025": {
-    "color": "rojo"
+  "2025-08-05": {
+    "color": "red"
   },
   "2025-08-07": {
-    "color": "rojo"
+    "color": "red"
   },
-  "08-08-2025": {
-    "color": "rojo"
+  "2025-08-08": {
+    "color": "red"
   },
-  "11/08/2025": {
-    "color": "rojo"
+  "2025-08-11": {
+    "color": "red"
   },
-  "12/08/2025": {
-    "color": "rojo"
+  "2025-08-12": {
+    "color": "red"
   },
-  "13/08/2025": {
-    "color": "rojo"
+  "2025-08-13": {
+    "color": "red"
   },
-  "14/08/2025": {
-    "color": "rojo"
+  "2025-08-14": {
+    "color": "red"
   },
-  "15/08/2025": {
-    "color": "azul"
+  "2025-08-15": {
+    "color": "blue"
   },
-  "18/08/2025": {
-    "color": "rojo"
+  "2025-08-18": {
+    "color": "red"
   },
-  "19/08/2025": {
-    "color": "rojo"
+  "2025-08-19": {
+    "color": "red"
   },
   "2025-08-20": {
-    "color": "rojo"
+    "color": "red"
   },
-  "21/08/2025": {
-    "color": "rojo"
+  "2025-08-21": {
+    "color": "red"
   },
   "2025-08-22": {
-    "color": "rojo"
+    "color": "red"
   },
-  "25/08/2025": {
-    "color": "rojo"
+  "2025-08-25": {
+    "color": "red"
   },
   "2025-08-26": {
-    "color": "rojo"
+    "color": "red"
   },
   "2025-08-27": {
-    "color": "rojo"
+    "color": "red"
   },
-  "28/08/2025": {
-    "color": "rojo"
+  "2025-08-28": {
+    "color": "red"
   },
-  "29/08/2025": {
-    "color": "rojo"
+  "2025-08-29": {
+    "color": "red"
   },
-  "01-09-2025": {
-    "color": "rojo"
+  "2025-09-01": {
+    "color": "red"
   },
-  "21/07/2025": {
-    "color": "naranja",
-    "nota": "AP"
+  "2025-07-21": {
+    "color": "orange",
+    "note": "AP"
   },
-  "23/07/2025": {
-    "color": "naranja",
-    "nota": "AP"
+  "2025-07-23": {
+    "color": "orange",
+    "note": "AP"
   },
-  "24/07/2025": {
-    "color": "naranja",
-    "nota": "AP"
+  "2025-07-24": {
+    "color": "orange",
+    "note": "AP"
   },
   "2025-07-25": {
-    "color": "naranja",
-    "nota": "AP"
+    "color": "orange",
+    "note": "AP"
   },
-  "28/07/2025": {
-    "color": "naranja",
-    "nota": "AP"
+  "2025-07-28": {
+    "color": "orange",
+    "note": "AP"
   },
   "2025-07-30": {
-    "color": "rojo",
-    "nota": "VAC"
+    "color": "red",
+    "note": "VAC"
   },
-  "31/07/2025": {
-    "color": "rojo",
-    "nota": "VAC"
+  "2025-07-31": {
+    "color": "red",
+    "note": "VAC"
   },
   "2025-12-24": {
-    "color": "naranja",
-    "nota": "T"
+    "color": "orange",
+    "note": "T"
   },
   "2025-12-31": {
-    "color": "azul"
+    "color": "blue"
   },
   "2025-12-25": {
-    "color": "rojo"
+    "color": "red"
   },
-  "08-12-2025": {
-    "color": "azul"
+  "2025-12-08": {
+    "color": "blue"
   },
-  "18/10/2025": {
-    "color": "azul"
+  "2025-10-18": {
+    "color": "blue"
   },
-  "01/11/2025": {
-    "color": "azul"
+  "2025-11-01": {
+    "color": "blue"
   },
-  "28/02/2025": {
-    "color": "azul",
-    "nota": "AP"
+  "2025-02-28": {
+    "color": "blue",
+    "note": "AP"
   },
-  "06-01-2025": {
-    "color": "azul"
+  "2025-01-06": {
+    "color": "blue"
   },
-  "01-01-2025": {
-    "color": "azul"
+  "2025-01-01": {
+    "color": "blue"
   },
-  "18/04/2025": {
-    "color": "rojo"
+  "2025-04-18": {
+    "color": "red"
   },
-  "17/04/2025": {
-    "color": "azul"
+  "2025-04-17": {
+    "color": "blue"
   },
-  "01-05-2025": {
-    "color": "azul"
+  "2025-05-01": {
+    "color": "blue"
   },
-  "11/06/2025": {
-    "color": "azul",
-    "nota": "FT"
+  "2025-06-11": {
+    "color": "blue",
+    "note": "FT"
   },
-  "12/07/2025": {
-    "color": "amarillo"
+  "2025-07-12": {
+    "color": "yellow"
   },
-  "13/07/2025": {
-    "color": "amarillo"
+  "2025-07-13": {
+    "color": "yellow"
   },
-  "26/07/2025": {
-    "color": "amarillo"
+  "2025-07-26": {
+    "color": "yellow"
   },
-  "27/07/2025": {
-    "color": "amarillo"
+  "2025-07-27": {
+    "color": "yellow"
   },
   "2025-08-09": {
-    "color": "rojo"
+    "color": "red"
   },
-  "10/08/2025": {
-    "color": "rojo"
+  "2025-08-10": {
+    "color": "red"
   },
-  "23/08/2025": {
-    "color": "rojo"
+  "2025-08-23": {
+    "color": "red"
   },
-  "24/08/2025": {
-    "color": "rojo"
+  "2025-08-24": {
+    "color": "red"
   },
-  "06-09-2025": {
-    "color": "amarillo"
+  "2025-09-06": {
+    "color": "yellow"
   },
   "2025-09-07": {
-    "color": "amarillo"
+    "color": "yellow"
   },
   "2025-09-20": {
-    "color": "amarillo"
+    "color": "yellow"
   },
-  "21/09/2025": {
-    "color": "amarillo"
+  "2025-09-21": {
+    "color": "yellow"
   },
-  "11/10/2025": {
-    "color": "rojo"
+  "2025-10-11": {
+    "color": "red"
   },
-  "12/10/2025": {
-    "color": "rojo"
+  "2025-10-12": {
+    "color": "red"
   },
   "2025-10-04": {
-    "color": "naranja",
-    "alerta": "Boda Manoli",
-    "nota": "AP"
+    "color": "orange",
+    "alert": "Boda Manoli",
+    "note": "AP"
   },
-  "05/10/2025": {
-    "color": "naranja",
-    "nota": "AP"
+  "2025-10-05": {
+    "color": "orange",
+    "note": "AP"
   },
-  "19/10/2025": {
-    "color": "amarillo"
+  "2025-10-19": {
+    "color": "yellow"
   },
-  "08/11/2025": {
-    "color": "rojo"
+  "2025-11-08": {
+    "color": "red"
   },
   "2025-11-09": {
-    "color": "rojo"
+    "color": "red"
   },
   "2025-11-22": {
-    "color": "rojo"
+    "color": "red"
   },
   "2025-11-23": {
-    "color": "rojo"
+    "color": "red"
   },
-  "06/12/2025": {
-    "color": "rojo"
+  "2025-12-06": {
+    "color": "red"
   },
   "2025-12-07": {
-    "color": "rojo"
+    "color": "red"
   },
   "2025-12-20": {
-    "color": "rojo"
+    "color": "red"
   },
-  "21/12/2025": {
-    "color": "rojo"
+  "2025-12-21": {
+    "color": "red"
   },
   "2025-08-02": {
-    "alerta": "Santo Ángel",
-    "color": "rojo"
+    "alert": "Santo Ángel",
+    "color": "red"
   },
   "2025-07-02": {
-    "nota": "FT"
+    "note": "FT"
   },
   "2025-07-07": {
-    "alerta": "Cumpleaños de ángel",
-    "color": "amarillo",
-    "nota": "FT"
+    "alert": "Cumpleaños de ángel",
+    "color": "yellow",
+    "note": "FT"
   },
-  "28/06/2025": {
-    "color": "amarillo"
+  "2025-06-28": {
+    "color": "yellow"
   },
   "2025-06-29": {
-    "color": "amarillo"
+    "color": "yellow"
   },
-  "14/06/2025": {
-    "color": "amarillo",
-    "nota": "FM"
+  "2025-06-14": {
+    "color": "yellow",
+    "note": "FM"
   },
-  "15/06/2025": {
-    "color": "amarillo",
-    "nota": "FT"
+  "2025-06-15": {
+    "color": "yellow",
+    "note": "FT"
   },
-  "01-06-2025": {
-    "color": "amarillo"
+  "2025-06-01": {
+    "color": "yellow"
   },
   "2025-05-31": {
-    "color": "amarillo"
+    "color": "yellow"
   },
-  "18/05/2025": {
-    "color": "amarillo",
-    "nota": "FT"
+  "2025-05-18": {
+    "color": "yellow",
+    "note": "FT"
   },
-  "17/05/2025": {
-    "color": "amarillo"
+  "2025-05-17": {
+    "color": "yellow"
   },
-  "03-05-2025": {
-    "color": "amarillo"
+  "2025-05-03": {
+    "color": "yellow"
   },
   "2025-05-04": {
-    "color": "amarillo",
-    "nota": "FT"
+    "color": "yellow",
+    "note": "FT"
   },
-  "19/04/2025": {
-    "color": "amarillo",
-    "nota": "FT"
+  "2025-04-19": {
+    "color": "yellow",
+    "note": "FT"
   },
   "2025-04-20": {
-    "color": "amarillo",
-    "nota": "FM"
+    "color": "yellow",
+    "note": "FM"
   },
-  "05-04-2025": {
-    "color": "amarillo"
+  "2025-04-05": {
+    "color": "yellow"
   },
-  "06-04-2025": {
-    "color": "amarillo"
+  "2025-04-06": {
+    "color": "yellow"
   },
-  "23/03/2025": {
-    "color": "amarillo"
+  "2025-03-23": {
+    "color": "yellow"
   },
   "2025-03-22": {
-    "color": "amarillo"
+    "color": "yellow"
   },
   "2025-03-09": {
-    "color": "amarillo"
+    "color": "yellow"
   },
-  "08-03-2025": {
-    "color": "amarillo"
+  "2025-03-08": {
+    "color": "yellow"
   },
-  "16/02/2025": {
-    "color": "rojo"
+  "2025-02-16": {
+    "color": "red"
   },
-  "15/02/2025": {
-    "color": "rojo"
+  "2025-02-15": {
+    "color": "red"
   },
   "2025-02-02": {
-    "color": "rojo"
+    "color": "red"
   },
-  "01-02-2025": {
-    "color": "rojo"
+  "2025-02-01": {
+    "color": "red"
   },
-  "19/01/2025": {
-    "color": "rojo"
+  "2025-01-19": {
+    "color": "red"
   },
-  "18/01/2025": {
-    "color": "rojo"
+  "2025-01-18": {
+    "color": "red"
   },
   "2025-01-04": {
-    "color": "rojo"
+    "color": "red"
   },
-  "05-01-2025": {
-    "color": "rojo"
+  "2025-01-05": {
+    "color": "red"
   },
-  "23/02/2025": {
-    "color": "amarillo"
+  "2025-02-23": {
+    "color": "yellow"
   },
   "2025-02-22": {
-    "color": "amarillo"
+    "color": "yellow"
   },
   "2025-02-09": {
-    "color": "amarillo"
+    "color": "yellow"
   },
-  "08-02-2025": {
-    "color": "amarillo"
+  "2025-02-08": {
+    "color": "yellow"
   },
   "2025-01-26": {
-    "color": "amarillo"
+    "color": "yellow"
   },
-  "25/01/2025": {
-    "color": "amarillo",
-    "nota": "BT"
+  "2025-01-25": {
+    "color": "yellow",
+    "note": "BT"
   },
-  "12/01/2025": {
-    "color": "amarillo"
+  "2025-01-12": {
+    "color": "yellow"
   },
-  "11/01/2025": {
-    "color": "amarillo"
+  "2025-01-11": {
+    "color": "yellow"
   },
   "2025-01-02": {
-    "nota": "AP",
-    "color": "naranja"
+    "note": "AP",
+    "color": "orange"
   },
-  "03-01-2025": {
-    "nota": "AP",
-    "color": "naranja"
+  "2025-01-03": {
+    "note": "AP",
+    "color": "orange"
   },
-  "14/07/2025": {
-    "nota": "Ft"
+  "2025-07-14": {
+    "note": "Ft"
   },
-  "16/07/2025": {
-    "nota": "SM"
+  "2025-07-16": {
+    "note": "SM"
   },
-  "17/07/2025": {
-    "nota": "FM"
+  "2025-07-17": {
+    "note": "FM"
   },
-  "18/07/2025": {
-    "nota": "FT"
+  "2025-07-18": {
+    "note": "FT"
   },
-  "11/07/2025": {
-    "nota": "FT"
+  "2025-07-11": {
+    "note": "FT"
   },
-  "06/06/2025": {
-    "nota": "FM"
+  "2025-06-06": {
+    "note": "FM"
   },
-  "13/06/2025": {
-    "nota": "FT"
+  "2025-06-13": {
+    "note": "FT"
   },
   "2025-06-20": {
-    "nota": "FT"
+    "note": "FT"
   },
-  "23/06/2025": {
-    "nota": "STc"
+  "2025-06-23": {
+    "note": "STc"
   },
-  "25/06/2025": {
-    "nota": "FM"
+  "2025-06-25": {
+    "note": "FM"
   },
   "2025-06-27": {
-    "nota": "FT"
+    "note": "FT"
   },
-  "19/06/2025": {
-    "color": "rojo"
+  "2025-06-19": {
+    "color": "red"
   },
   "2025-06-26": {
-    "color": "blanco",
-    "nota": "FT"
+    "color": "white",
+    "note": "FT"
   },
-  "03-07-2025": {
-    "nota": "FT"
+  "2025-07-03": {
+    "note": "FT"
   },
   "2025-07-04": {
-    "nota": "FT"
+    "note": "FT"
   },
-  "10/07/2025": {
-    "nota": "ST"
+  "2025-07-10": {
+    "note": "ST"
   },
   "2025-07-09": {
-    "nota": "FT"
+    "note": "FT"
   },
   "2025-01-27": {
-    "nota": "FT"
+    "note": "FT"
   },
-  "14/04/2025": {
-    "nota": "SM"
+  "2025-04-14": {
+    "note": "SM"
   },
-  "16/04/2025": {
-    "nota": "SM"
+  "2025-04-16": {
+    "note": "SM"
   },
   "2025-10-25": {
-    "color": "rojo"
+    "color": "red"
   },
   "2025-10-26": {
-    "color": "rojo"
+    "color": "red"
   },
   "2025-11-02": {
-    "color": "amarillo"
+    "color": "yellow"
   },
-  "15/11/2025": {
-    "color": "amarillo"
+  "2025-11-15": {
+    "color": "yellow"
   },
-  "16/11/2025": {
-    "color": "amarillo"
+  "2025-11-16": {
+    "color": "yellow"
   },
   "2025-11-29": {
-    "color": "amarillo"
+    "color": "yellow"
   },
   "2025-11-30": {
-    "color": "amarillo"
+    "color": "yellow"
   },
-  "13/12/2025": {
-    "color": "amarillo"
+  "2025-12-13": {
+    "color": "yellow"
   },
-  "14/12/2025": {
-    "color": "amarillo"
+  "2025-12-14": {
+    "color": "yellow"
   },
   "2025-12-27": {
-    "color": "naranja",
-    "nota": "T"
+    "color": "orange",
+    "note": "T"
   },
   "2025-12-28": {
-    "color": "naranja",
-    "nota": "T"
+    "color": "orange",
+    "note": "T"
   },
-  "03-01-2026": {
-    "color": "naranja",
-    "nota": "T"
+  "2026-01-03": {
+    "color": "orange",
+    "note": "T"
   },
   "2026-01-04": {
-    "color": "naranja",
-    "nota": "T"
+    "color": "orange",
+    "note": "T"
   },
-  "10/01/2026": {
-    "color": "rojo"
+  "2026-01-10": {
+    "color": "red"
   },
-  "11/01/2026": {
-    "color": "rojo"
+  "2026-01-11": {
+    "color": "red"
   },
-  "17/01/2026": {
-    "color": "amarillo"
+  "2026-01-17": {
+    "color": "yellow"
   },
-  "18/01/2026": {
-    "color": "amarillo"
+  "2026-01-18": {
+    "color": "yellow"
   },
-  "24/01/2026": {
-    "color": "rojo"
+  "2026-01-24": {
+    "color": "red"
   },
-  "25/01/2026": {
-    "color": "rojo"
+  "2026-01-25": {
+    "color": "red"
   },
-  "31/01/2026": {
-    "color": "amarillo"
+  "2026-01-31": {
+    "color": "yellow"
   },
   "2025-01-07": {
-    "color": "rojo"
+    "color": "red"
   },
-  "14/01/2025": {
-    "color": "rojo"
+  "2025-01-14": {
+    "color": "red"
   },
-  "21/01/2025": {
-    "color": "rojo"
+  "2025-01-21": {
+    "color": "red"
   },
-  "28/01/2025": {
-    "color": "rojo"
+  "2025-01-28": {
+    "color": "red"
   },
   "2025-02-04": {
-    "color": "rojo"
+    "color": "red"
   },
-  "11/02/2025": {
-    "color": "rojo"
+  "2025-02-11": {
+    "color": "red"
   },
-  "18/02/2025": {
-    "color": "rojo"
+  "2025-02-18": {
+    "color": "red"
   },
-  "25/02/2025": {
-    "color": "rojo"
+  "2025-02-25": {
+    "color": "red"
   },
-  "01-03-2025": {
-    "color": "rojo"
+  "2025-03-01": {
+    "color": "red"
   },
   "2025-03-02": {
-    "color": "rojo"
+    "color": "red"
   },
-  "15/03/2025": {
-    "color": "rojo"
+  "2025-03-15": {
+    "color": "red"
   },
-  "16/03/2025": {
-    "color": "rojo"
+  "2025-03-16": {
+    "color": "red"
   },
   "2025-03-29": {
-    "color": "rojo"
+    "color": "red"
   },
   "2025-03-30": {
-    "color": "rojo"
+    "color": "red"
   },
-  "04-03-2025": {
-    "color": "rojo"
+  "2025-03-04": {
+    "color": "red"
   },
-  "11-03-2025": {
-    "color": "rojo"
+  "2025-03-11": {
+    "color": "red"
   },
-  "18/03/2025": {
-    "color": "rojo"
+  "2025-03-18": {
+    "color": "red"
   },
-  "25/03/2025": {
-    "color": "rojo"
+  "2025-03-25": {
+    "color": "red"
   },
-  "01-04-2025": {
-    "color": "rojo"
+  "2025-04-01": {
+    "color": "red"
   },
-  "08/04/2025": {
-    "color": "rojo"
+  "2025-04-08": {
+    "color": "red"
   },
-  "15/04/2025": {
-    "color": "rojo"
+  "2025-04-15": {
+    "color": "red"
   },
   "2025-04-22": {
-    "color": "rojo"
+    "color": "red"
   },
   "2025-04-29": {
-    "color": "rojo"
+    "color": "red"
   },
-  "12/04/2025": {
-    "color": "rojo"
+  "2025-04-12": {
+    "color": "red"
   },
-  "13/04/2025": {
-    "color": "rojo"
+  "2025-04-13": {
+    "color": "red"
   },
   "2025-04-26": {
-    "color": "rojo"
+    "color": "red"
   },
   "2025-04-27": {
-    "color": "rojo"
+    "color": "red"
   },
-  "06-05-2025": {
-    "color": "rojo"
+  "2025-05-06": {
+    "color": "red"
   },
-  "13/05/2025": {
-    "color": "rojo"
+  "2025-05-13": {
+    "color": "red"
   },
   "2025-05-20": {
-    "color": "rojo"
+    "color": "red"
   },
-  "27/05/2025": {
-    "color": "rojo"
+  "2025-05-27": {
+    "color": "red"
   },
-  "10/05/2025": {
-    "color": "rojo"
+  "2025-05-10": {
+    "color": "red"
   },
-  "11/05/2025": {
-    "color": "rojo"
+  "2025-05-11": {
+    "color": "red"
   },
-  "24/05/2025": {
-    "color": "rojo"
+  "2025-05-24": {
+    "color": "red"
   },
-  "25/05/2025": {
-    "color": "rojo"
+  "2025-05-25": {
+    "color": "red"
   },
-  "03-06-2025": {
-    "color": "rojo"
+  "2025-06-03": {
+    "color": "red"
   },
-  "10/06/2025": {
-    "color": "rojo"
+  "2025-06-10": {
+    "color": "red"
   },
-  "17/06/2025": {
-    "color": "rojo"
+  "2025-06-17": {
+    "color": "red"
   },
-  "24/06/2025": {
-    "color": "rojo"
+  "2025-06-24": {
+    "color": "red"
   },
-  "07-06-2025": {
-    "color": "rojo"
+  "2025-06-07": {
+    "color": "red"
   },
-  "08/06/2025": {
-    "color": "rojo"
+  "2025-06-08": {
+    "color": "red"
   },
-  "21/06/2025": {
-    "color": "rojo"
+  "2025-06-21": {
+    "color": "red"
   },
   "2025-06-22": {
-    "color": "rojo"
+    "color": "red"
   },
-  "05/07/2025": {
-    "color": "rojo"
+  "2025-07-05": {
+    "color": "red"
   },
-  "06-07-2025": {
-    "color": "rojo"
+  "2025-07-06": {
+    "color": "red"
   },
-  "19/07/2025": {
-    "color": "rojo"
+  "2025-07-19": {
+    "color": "red"
   },
   "2025-07-20": {
-    "color": "rojo"
+    "color": "red"
   },
-  "03-08-2025": {
-    "color": "rojo"
+  "2025-08-03": {
+    "color": "red"
   },
-  "16/08/2025": {
-    "color": "rojo"
+  "2025-08-16": {
+    "color": "red"
   },
-  "17/08/2025": {
-    "color": "rojo"
+  "2025-08-17": {
+    "color": "red"
   },
   "2025-08-30": {
-    "color": "rojo"
+    "color": "red"
   },
   "2025-08-31": {
-    "color": "rojo"
+    "color": "red"
   },
-  "13/09/2025": {
-    "color": "rojo"
+  "2025-09-13": {
+    "color": "red"
   },
-  "14/09/2025": {
-    "color": "rojo"
+  "2025-09-14": {
+    "color": "red"
   },
-  "27/09/2025": {
-    "color": "rojo"
+  "2025-09-27": {
+    "color": "red"
   },
-  "28/09/2025": {
-    "color": "rojo"
+  "2025-09-28": {
+    "color": "red"
   },
   "2025-09-02": {
-    "color": "rojo"
+    "color": "red"
   },
   "2025-09-09": {
-    "color": "rojo"
+    "color": "red"
   },
-  "16/09/2025": {
-    "color": "rojo"
+  "2025-09-16": {
+    "color": "red"
   },
-  "23/09/2025": {
-    "color": "rojo"
+  "2025-09-23": {
+    "color": "red"
   },
   "2025-09-30": {
-    "color": "rojo"
+    "color": "red"
   },
   "2025-10-07": {
-    "color": "rojo"
+    "color": "red"
   },
-  "14/10/2025": {
-    "color": "rojo"
+  "2025-10-14": {
+    "color": "red"
   },
-  "21/10/2025": {
-    "color": "rojo"
+  "2025-10-21": {
+    "color": "red"
   },
-  "28/10/2025": {
-    "color": "rojo"
+  "2025-10-28": {
+    "color": "red"
   },
   "2025-11-04": {
-    "color": "rojo"
+    "color": "red"
   },
-  "11/11/2025": {
-    "color": "rojo"
+  "2025-11-11": {
+    "color": "red"
   },
-  "18/11/2025": {
-    "color": "rojo"
+  "2025-11-18": {
+    "color": "red"
   },
   "2025-11-25": {
-    "color": "rojo"
+    "color": "red"
   },
   "2025-12-02": {
-    "color": "ro
+    "color": "red"
+  },
+  "2025-12-09": {
+    "color": "red"
+  },
+  "2025-12-16": {
+    "color": "red"
+  },
+  "2025-12-23": {
+    "color": "red"
+  },
+  "2025-12-30": {
+    "color": "red"
+  },
+  "2025-12-22": {
+    "note": "T",
+    "color": "orange"
+  },
+  "2025-12-26": {
+    "note": "T",
+    "color": "orange"
+  },
+  "2025-12-29": {
+    "note": "T",
+    "color": "orange"
+  },
+  "2026-01-01": {
+    "color": "red"
+  },
+  "2026-01-02": {
+    "note": "T",
+    "color": "
