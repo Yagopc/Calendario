@@ -1,42 +1,42 @@
 {
   "2025-01-01": {
-    "color": "green ",
+    "color": "green",
     "nombre": "AN"
   },
   "2025-01-06": {
-    "color": "green ",
+    "color": "green",
     "nombre": "RM"
   },
   "2025-02-28": {
-    "color": "green ",
+    "color": "green",
     "nombre": "DAn"
   },
   "2025-05-01": {
-    "color": "green ",
+    "color": "green",
     "nombre": "Dtr"
   },
   "2025-06-11": {
-    "color": "green ",
+    "color": "green",
     "nombre": "Vic"
   },
   "2025-08-15": {
-    "color": "green ",
+    "color": "green",
     "nombre": "Asu"
   },
   "2025-10-12": {
-    "color": "green ",
+    "color": "green",
     "nombre": "FN"
   },
   "2025-11-01": {
-    "color": "green ",
+    "color": "green",
     "nombre": "Tds"
   },
   "2025-12-06": {
-    "color": "green ",
+    "color": "green",
     "nombre": "Con"
       },
   "2025-12-08": {
-    "color": "red",
+    "color": "green",
     "nombre": "Inm"
   },
   "2025-12-24": {
@@ -44,7 +44,7 @@
     "nombre": "Nob"
   },
   "2025-12-25": {
-    "color": "red",
+    "color": "green",
     "nombre": "Nav"
   },
   "2025-12-31": {
