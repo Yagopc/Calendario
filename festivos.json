@@ -11,6 +11,16 @@
     "color": "green",
     "nombre": "DAn"
   },
+    "2025-05-17": {
+    "color": "blue",
+    "nombre": "JvS"
+  },
+    "2025-05-18": {
+    "color": "green",
+    "nombre": "VNS"
+  },
+  
+  
   "2025-05-01": {
     "color": "green",
     "nombre": "Dtr"
@@ -48,7 +58,7 @@
     "nombre": "Nav"
   },
   "2025-12-31": {
-    "color": "green",
+    "color": "blue",
     "nombre": "NoV"
   }
 }
