@@ -1,4 +1,5 @@
-body {
+    background: rgba(255, 255, 255, 0.9);
+  border-radius:body {
   margin: 0;
   font-family: 'Segoe UI', Arial, sans-serif;
   min-height: 100vh;
