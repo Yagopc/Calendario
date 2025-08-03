@@ -1,42 +1,54 @@
 {
-  "day_01_1_2025": {
-    "color": "red"
+  "2025-01-01": {
+    "color": "red",
+    "nombre": "Año Nuevo"
   },
-  "day_06_01_2025": {
-    "color": "red"
+  "2025-01-06": {
+    "color": "red",
+    "nombre": "Reyes Magos"
   },
-  "day_28_2_2025": {
-    "color": "red"
+  "2025-02-28": {
+    "color": "red",
+    "nombre": "Día de Andalucía"
   },
-  "day_01_05_2025": {
-    "color": "red"
+  "2025-05-01": {
+    "color": "red",
+    "nombre": "Día del Trabajador"
   },
-   "day_13_06_2025": {
-    "color": "red"
-    },
-    
-   "day_15_08_2025": {
-    "color": "red"
-    },
-    "day_12_10_2025": {
-    "color": "red"
-    },
-    "day_01_11_2025": {
-    "color": "red"
-    },
-    "day_06_12_2025": {
-    "color": "red"
-    },
-    "day_08_12_2025": {
-    "color": "red"
-    },
-    "day_24_12_2025": {
-    "color": "Blue"
-    },
-    "day_26_12_2025": {
-    "color": "red"
-    },
-    "day_31_12_2025": {
-    "color": "Blue"    
-    }
+  "2025-06-11": {
+    "color": "red",
+    "nombre": "Virgen de la capilla"
+  },
+  "2025-08-15": {
+    "color": "red",
+    "nombre": "Asunción"
+  },
+  "2025-10-12": {
+    "color": "red",
+    "nombre": "Fiesta Nacional"
+  },
+  "2025-11-01": {
+    "color": "red",
+    "nombre": "Todos los Santos"
+  },
+  "2025-12-06": {
+    "color": "red",
+    "nombre": "Constitución"
+  },
+  "2025-12-08": {
+    "color": "red",
+    "nombre": "Inmaculada"
+  },
+  "2025-12-24": {
+    "color": "blue",
+    "nombre": "Nochebuena"
+  },
+  "2025-12-26": {
+    "color": "red",
+    "nombre": "San Esteban"
+  },
+  "2025-12-31": {
+    "color": "blue",
+    "nombre": "Nochevieja"
+  }
 }
