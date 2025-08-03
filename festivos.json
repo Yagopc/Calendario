@@ -1,4 +1,4 @@
-{
+.{
   "2025-01-01": {
     "color": "green",
     "nombre": "AN"
@@ -10,6 +10,14 @@
   "2025-02-28": {
     "color": "green",
     "nombre": "DAn"
+  },
+  "2025-04-17": {
+    "color": "blue",
+    "nombre": "JS"
+  },
+  "2025-04-04": {
+    "color": "green",
+    "nombre": "VS"
   },
   "2025-05-01": {
     "color": "green",
