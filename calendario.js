@@ -531,6 +531,33 @@ function calcularFaseLuna(fecha) {
   return { fase, porcentaje };
 }
 
+
+
+
+
+const clearBtn = document.getElementById("clearBtn");
+
+clearBtn.onclick = () => {
+  if (bloqueado) return;
+  if (confirm("¿Estás seguro de que quieres limpiar todos los datos del calendario? Esta acción no se puede deshacer.")) {
+    datos = {};
+    guardarDatos();
+    renderCalendar();
+    showStatus("Datos del calendario limpiados");
+  }
+};
+
+window.addEventListener("DOMContentLoaded", () => {
+  fetchMeteoDataJaen();
+  cargarDatos();
+  renderCalendar();
+  actualizarDatosAstronomicos();
+  showStatus("Modo: Color");
+});
+
+
+
+
 // === INICIALIZACIÓN: SIEMPRE CARGA FESTIVOS EN MEMORIA ANTES DE MOSTRAR EL CALENDARIO ===
 window.addEventListener("DOMContentLoaded", async () => {
   fetchMeteoDataJaen();
