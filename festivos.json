@@ -49,16 +49,7 @@
     "color": "green",
     "nombre": "imn"
   },
-  "2025-12-24": {
-    "color": "blue",
-    "nombre": "NoB"
-  },
   "2025-12-25": {
     "color": "green",
-    "nombre": "Nav"
-  },
-  "2025-12-31": {
-    "color": "blue",
-    "nombre": "NoV"
-  }
+    "nombre": "Nav"}
 }
